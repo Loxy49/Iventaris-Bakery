@@ -27,7 +27,6 @@ int inputAngka(const string& prompt) {
     }
 }
 
-
 void tambahItem() {
     string nama;
     int harga, stok;
@@ -156,6 +155,7 @@ void menu() {
         cout << "3. Ubah Produk\n";
         cout << "4. Hapus Produk\n";
         cout << "5. Keluar\n";
+        cout << "==========================================\n";
         cout << "Pilih (1-5): ";
         cin >> pilihan;
         cin.ignore();
@@ -166,7 +166,7 @@ void menu() {
             case 3: ubahItem(); break;
             case 4: hapusItem(); break;
             case 5: cout << "Terima kasih telah menggunakan sistem inventaris.\n"; break;
-            default: cout << "[!] Pilihan tidak valid.\n";
+            default: cout << "[!] Pilihan tidak valid. Coba lagi.\n";
         }
     } while (pilihan != 5);
 }
