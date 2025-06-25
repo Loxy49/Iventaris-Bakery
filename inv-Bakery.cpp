@@ -11,6 +11,23 @@ struct BakeryItem {
 
 BakeryItem* head = nullptr;
 
+int inputAngka(const string& prompt) {
+    int angka;
+    while (true) {
+        cout << prompt;
+        cin >> angka;
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "[!] Input harus berupa angka. Coba lagi.\n";
+        } else {
+            cin.ignore();
+            return angka;
+        }
+    }
+}
+
+
 void tambahItem() {
     string nama;
     int harga, stok;
