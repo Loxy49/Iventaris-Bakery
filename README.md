@@ -2,7 +2,7 @@
 # Deskripsi 
 Repositori ini dibuat untuk memenuhi tugas mata kuliah Struktur Data. Kami membuat sistem Inventaris Toko Roti berbasis Linked List menggunakan bahasa pemrograman C++.
 Anggota Kelompok:
-1.  [Miftahush Syaadah](https://github.com/loxy49 (C030324077)
+1.  [Miftahush Syaadah](https://github.com/loxy49) (C030324077)
 2.  [Nur Azkia](https://github.com/vonirisee) (C030324102)
 3.  [Tiara Lestari](https://github.com/tyaaralestari) (C030324111)
 
@@ -13,10 +13,10 @@ Toko Rootie adalah usaha rumahan yang bergerak di bidang kuliner, khususnya roti
 3. Ada produk yang sudah tidak dijual
 
 Untuk itu, kami membuat sistem inventaris yang dapat:
-✅ Create (Tambah Produk)
-✅ Read (Lihat Daftar Produk)
-✅ Update (Perbarui Informasi Produk)
-✅ Delete (Hapus Produk)
+Create (Tambah Produk)
+Read (Lihat Daftar Produk)
+Update (Perbarui Informasi Produk)
+Delete (Hapus Produk)
 
 # Fitur Program
 1. Menambahkan produk roti baru ke dalam inventaris
